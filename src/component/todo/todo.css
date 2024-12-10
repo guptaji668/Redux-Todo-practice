@@ -1,0 +1,107 @@
+/* ToDoList.css */
+
+.todo-list-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-list-title {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .todo-form {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-form input[type="text"],
+  .todo-form textarea,
+  .todo-form input[type="date"],
+  .todo-form select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .todo-form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .todo-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .todo-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .task-item {
+    border-left: 2px solid #ddd;
+    padding-left: 15px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .task-item h4 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .task-item p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .task-item-actions {
+    margin-top: 5px;
+  }
+  
+  .task-item-actions button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-item-actions button.edit-btn {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .task-item-actions button.delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .task-item-actions button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Nested task styling */
+  .task-item .task-children {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #ddd;
+  }
+  
